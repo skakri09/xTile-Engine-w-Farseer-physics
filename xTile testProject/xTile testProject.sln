@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xTile based winPhone engine with farseer", "xTile testProject\xTile testProject\xTile based winPhone engine with farseer.csproj", "{091C7E9D-D12F-487F-AC3B-398A49254688}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "xTile testProjectContent", "xTile testProject\xTile testProjectContent\xTile testProjectContent.contentproj", "{16F80E42-1C9A-4DB3-ADDE-F1E4BDF6D12B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xTile", "xTile", "{EF78B2B3-F5A3-4502-8C84-389F593D17AC}"
+	ProjectSection(SolutionItems) = preProject
+		xTile testProject\Library\Pipeline\xTile.dll = xTile testProject\Library\Pipeline\xTile.dll
+		xTile testProject\Library\Pipeline\xTile.Pipeline.dll = xTile testProject\Library\Pipeline\xTile.Pipeline.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{091C7E9D-D12F-487F-AC3B-398A49254688}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{091C7E9D-D12F-487F-AC3B-398A49254688}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{091C7E9D-D12F-487F-AC3B-398A49254688}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{091C7E9D-D12F-487F-AC3B-398A49254688}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{091C7E9D-D12F-487F-AC3B-398A49254688}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{091C7E9D-D12F-487F-AC3B-398A49254688}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{16F80E42-1C9A-4DB3-ADDE-F1E4BDF6D12B}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{16F80E42-1C9A-4DB3-ADDE-F1E4BDF6D12B}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
